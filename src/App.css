@@ -4,7 +4,11 @@ text-align: center;
 
 *{
   box-sizing: border-box;
+  
+
 }
+
+
 
 body {
   background-color: rgb(188, 189, 192);
@@ -48,6 +52,12 @@ text-align: center;
   text-decoration: underline;
 }
 
+#home{
+  margin-top: 20px;
+  font-size: x-large;
+
+}
+
 #footer {
   position: fixed;
   left: 0;
@@ -60,4 +70,40 @@ text-align: center;
 .todo-container {
   margin-left: 10px;
   margin-bottom: 50px;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#funfact{
+  color: red;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+
+#fun {
+  color: black;
+}
+
+#carousel-item active{
+  background-image: url(/src/assests/dialogue-hero.jpg);
+}
+
+#heroimage{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#heroimg{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#carouselExample{
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
 }

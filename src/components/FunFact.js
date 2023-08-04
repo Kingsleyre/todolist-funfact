@@ -1,4 +1,7 @@
 import React from 'react';
+import heroImage from '../assests/hero-image.jpg'; 
+
+
 const FunFact = (props) => {
     // Initialize fact state variable
     const [fact, setFact] = React.useState('');
@@ -21,8 +24,12 @@ const FunFact = (props) => {
 
     }, []);
     return (
-
-        <p>Fun fact: {fact}</p>
+        <>
+        <p id='funfact'> <span id='fun'> Fun fact: </span>{fact}</p>
+        <div id='heroimg'>
+            <img  src={heroImage} alt="Hero Image" className="img-fluid cover" />
+            </div>
+        </>
     )
 };
 export default FunFact;

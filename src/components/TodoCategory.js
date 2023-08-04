@@ -11,6 +11,7 @@ const TodoCategory = ({ title }) => {
 
   return (
     <>
+    <div className='mt-3'>
       <h1>{title}</h1>
       <TodoForm onTaskAdded={onTaskAdded} />
       <ul>
@@ -18,6 +19,7 @@ const TodoCategory = ({ title }) => {
           <Task key={index}>{task}</Task>
         ))}
       </ul>
+      </div>
     </>
   );
 };
